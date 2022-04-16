@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #d1d5db;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+a:hover {
+  color: #ED6C02;
+}
+
+img {
+  width: 100%;
+}
+
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+          line-clamp: 1; 
+  -webkit-box-orient: vertical;
+}
